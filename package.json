@@ -55,6 +55,7 @@
   },
   "files": [
     "dist/index.*",
+    "dist/workers/*",
     "src/index.*",
     "LICENSE",
     "CHANGELOG.md",
