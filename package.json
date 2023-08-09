@@ -66,6 +66,7 @@
     "build:workers:vite": "vite -c ./workers/vite.editorWorker.ts build && vite -c ./workers/vite.tsWorker.ts build && vite -c ./workers/vite.htmlWorker.ts build && vite -c ./workers/vite.cssWorker.ts build && vite -c ./workers/vite.jsonWorker.ts build",
     "build:workers:esbuild": "vite-node ./workers/buildAllWorkers.mts",
     "build": "npm run clean && npm run compile && npm run build:workers:vite",
+    "lint": "eslint {**/src/**/*.ts,**/src/**/*.tsx,**/test/**/*.ts,**/test/**/*.tsx}",
     "dev": "vite",
     "dev:debug": "vite --debug --force"
   },
@@ -81,6 +82,9 @@
   },
   "devDependencies": {
     "@types/node": "~18.17.3",
+    "@typescript-eslint/eslint-plugin": "~6.3.0",
+    "@typescript-eslint/parser": "~6.3.0",
+    "eslint": "~8.46.0",
     "shx": "~0.3.4",
     "tslib": "~2.6.1",
     "typescript": "~5.1.6",
