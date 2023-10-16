@@ -2,6 +2,10 @@
 
 All notable changes to npm module [monaco-editor-workers](https://www.npmjs.com/package/monaco-editor-workers) are documented in this file.
 
+## [0.44.0] - 2023-09-16
+
+- Updated to [0.44.0 release of monaco-editor](https://www.npmjs.com/package/monaco-editor/v/0.44.0).
+
 ## [0.43.0] - 2023-09-14
 
 - Updated to [0.43.0 release of monaco-editor](https://www.npmjs.com/package/monaco-editor/v/0.43.0).
