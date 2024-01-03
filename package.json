@@ -1,6 +1,6 @@
 {
   "name": "monaco-editor-workers",
-  "version": "0.44.0",
+  "version": "0.45.0",
   "license": "MIT",
   "description": "Monaco Editor Worker Support Package",
   "keywords": [
@@ -72,24 +72,24 @@
     "dev:debug": "vite --debug --force"
   },
   "volta": {
-    "node": "18.18.1",
-    "npm": "9.9.0"
+    "node": "20.10.0",
+    "npm": "10.2.3"
   },
   "dependencies": {
-    "monaco-editor": "~0.44.0"
+    "monaco-editor": "~0.45.0"
   },
   "peerDependencies": {
-    "monaco-editor": "~0.44.0"
+    "monaco-editor": "~0.45.0"
   },
   "devDependencies": {
-    "@types/node": "~18.18.5",
-    "@typescript-eslint/eslint-plugin": "~6.7.5",
-    "@typescript-eslint/parser": "~6.7.5",
-    "eslint": "~8.51.0",
+    "@types/node": "~20.10.6",
+    "@typescript-eslint/eslint-plugin": "~6.17.0",
+    "@typescript-eslint/parser": "~6.17.0",
+    "eslint": "~8.56.0",
     "shx": "~0.3.4",
     "tslib": "~2.6.2",
-    "typescript": "~5.2.2",
-    "vite": "~4.4.11"
+    "typescript": "~5.3.3",
+    "vite": "~5.0.10"
   },
   "repository": {
     "type": "git",
