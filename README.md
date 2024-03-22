@@ -1,5 +1,7 @@
 # Monaco Editor Worker Support Package
 
+**These project is discontinued. A successor is available has part of [monaco-editor-wrapper](https://github.com/TypeFox/monaco-languageclient/tree/main/packages/wrapper).**
+
 This package supplies all [monaco-editor](https://github.com/microsoft/monaco-editor) workers as module or classic workers (bundled with vite/rollup) and it contains a utility function that applies them to `MonacoEnvironment`:
 
 Workers are now exported in the `packages.json`. This could be handy for re-bundling.
